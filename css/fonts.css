@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Tahoma';
+    src: local("Tahoma"), local("TahomaRegular"),
+         url('fonts/Tahoma-Regular/Tahoma-Regular.eot');
+         url('fonts/Tahoma-Regular/Tahoma-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Tahoma-Regular/Tahoma-Regular.woff') format('woff'),
+         url('fonts/Tahoma-Regular/Tahoma-Regular.ttf') format('truetype'),
+         url('fonts/Tahoma-Regular/Tahoma-Regular.svg#Tahoma-Regular') format('svg');
+}
+@font-face {
+    font-family: 'GeorgiaBold';
+    src: url('fonts/GeorgiaBold.eot');
+    src: url('fonts/GeorgiaBold.eot') format('embedded-opentype'),
+         url('fonts/GeorgiaBold.woff2') format('woff2'),
+         url('fonts/GeorgiaBold.woff') format('woff'),
+         url('fonts/GeorgiaBold.ttf') format('truetype'),
+         url('fonts/GeorgiaBold.svg#GeorgiaBold') format('svg');
+}
+
+@font-face {
+    font-family: 'georgiaregularfont';
+    src: url('fonts/georgiaregularfont.eot');
+    src: url('fonts/georgiaregularfont.eot') format('embedded-opentype'),
+         url('fonts/georgiaregularfont.woff2') format('woff2'),
+         url('fonts/georgiaregularfont.woff') format('woff'),
+         url('fonts/georgiaregularfont.ttf') format('truetype'),
+         url('fonts/georgiaregularfont.svg#georgiaregularfont') format('svg');
+}
+
+@font-face {
+    font-family: 'GILB';
+    src: url('fonts/GILB.eot');
+    src: url('fonts/GILB.eot') format('embedded-opentype'),
+         url('fonts/GILB.woff2') format('woff2'),
+         url('fonts/GILB.woff') format('woff'),
+         url('fonts/GILB.ttf') format('truetype'),
+         url('fonts/GILB.svg#GILB') format('svg');
+}
+
+@font-face {
+    font-family: 'helvetica_regular';
+    src: url('fonts/helvetica_regular.eot');
+    src: url('fonts/helvetica_regular.eot') format('embedded-opentype'),
+         url('fonts/helvetica_regular.woff2') format('woff2'),
+         url('fonts/helvetica_regular.woff') format('woff'),
+         url('fonts/helvetica_regular.ttf') format('truetype'),
+         url('fonts/helvetica_regular.svg#helvetica_regular') format('svg');
+}

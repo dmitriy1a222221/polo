@@ -1,0 +1,95 @@
+@media screen and (max-width:745px) {
+    .slider-description {
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width:731px) {
+    #header-navigation {
+        display: none;
+    }
+    .header__logo-wrapp {
+        width: 68.340426%;
+    }
+    .mobail-header-wrapp {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobile-menu {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 24px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .mobile-menu__row1 {
+        height: 5px;
+        width: 100%;
+        border-radius: 3px;
+        background: #be0f6a;
+        transition: transform 0.2s;
+    }
+    .mobile-menu__row2 {
+        height: 5px;
+        width: 100%;
+        border-radius: 3px;
+        background: #0086ac;
+        transition: transform 0.2s;
+    }
+    .mobile-menu__row3 {
+        height: 5px;
+        width: 100%;
+        border-radius: 3px;
+        background: #c46401;
+        transition: transform 0.2s;
+    }
+    #checkbox-menu:checked ~ .mobail-header-wrapp .mobile-menu .mobile-menu__row1 {
+        position: absolute;
+        top: 7px;
+        transform: rotate(45deg);
+    }
+    #checkbox-menu:checked ~ .mobail-header-wrapp .mobile-menu .mobile-menu__row2 {
+        display: none;
+    }
+    #checkbox-menu:checked ~ .mobail-header-wrapp .mobile-menu .mobile-menu__row3 {
+        position: absolute;
+        top: 7px;
+        transform: rotate(-45deg);
+    }
+    #checkbox-menu:checked ~ #header-navigation {
+        display: flex;
+        width: 100%;
+    }
+    #checkbox-menu:checked ~ #header-navigation  .header-navigation__ul {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+    }
+    #header-navigation  .header-navigation__ul li {
+        border: none;
+        text-align: center;
+        padding: 10px 0 10px;
+    }
+    #header-navigation  .header-navigation__ul li:nth-of-type(2n+1){
+        background: radial-gradient(100% 110%, #fff, #d5d5d5);
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+@media screen and (max-width:605px) {
+    .slider-description {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:514px) {
+    .logo-icon {
+        display: none;
+    }
+}

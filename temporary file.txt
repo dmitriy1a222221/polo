@@ -1,0 +1,4 @@
+Georgia bold
+Georgia regular
+Helvetica regular
+GillSansMT bold
