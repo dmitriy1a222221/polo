@@ -1,4 +1,13 @@
 @font-face {
+    font-family: 'VERDANA';
+    src: url('fonts/VERDANA.eot');
+    src: url('fonts/VERDANA.eot') format('embedded-opentype'),
+         url('fonts/VERDANA.woff2') format('woff2'),
+         url('fonts/VERDANA.woff') format('woff'),
+         url('fonts/VERDANA.ttf') format('truetype'),
+         url('fonts/VERDANA.svg#VERDANA') format('svg');
+}
+@font-face {
     font-family: 'Tahoma';
     src: local("Tahoma"), local("TahomaRegular"),
          url('fonts/Tahoma-Regular/Tahoma-Regular.eot');

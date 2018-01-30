@@ -1,3 +1,29 @@
+@media screen and (max-width:964px) {
+    .featured::before {
+        display: none;
+    }
+    .featured {
+    max-width: 682px;
+    }
+}
+@media screen and (max-width:648px) {
+    .featured {
+    max-width: 300px;
+    }
+    .featured__item1 {
+    margin-bottom: 50px;
+    }
+    .featured__item4 {
+    margin-bottom: 50px;
+    }
+    .featured__item5 {
+    margin-bottom: 50px;
+    }
+    .footer {
+    max-width: 336px;
+    }
+
+}
 @media screen and (max-width:745px) {
     .slider-description {
         font-size: 1.2em;
@@ -92,4 +118,8 @@
     .logo-icon {
         display: none;
     }
+}
+@media screen and (max-width:286px) {
+    .logo-title__basic {
+    font-size: 2.4em;
 }
