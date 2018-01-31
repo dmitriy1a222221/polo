@@ -306,7 +306,7 @@
 }
 .featured__item1-description {
     margin: 15px 0 21px;
-    font: 0.8125em 'helvetica_regular';
+    font: 0.8125em/18.4px 'helvetica_regular';
     color: #3e3e3e;
 }
 .featured__item1-button {
