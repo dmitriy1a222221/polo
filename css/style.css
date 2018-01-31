@@ -208,7 +208,7 @@
     width: 95%;
     margin: 0 auto;
     text-align: center;
-    font: 1.5em 'GeorgiaBold';
+    font: 1.5em/18.4px 'GeorgiaBold';
 }
 .slider-description::after {
     transform: translateY(14px);
@@ -266,11 +266,11 @@
     margin-bottom: 75px;
 }
 .featured__item1-title {
-    font: 1.3125em 'georgiaregularfont';
+    font: 1.3125em/18.4px 'georgiaregularfont';
     color: #11719e;
 }
 .featured__item1-sub_title {
-    font: 0.75em 'helvetica_regular';
+    font: 0.75em/18.4px 'helvetica_regular';
     color: #9e9e9e;
     margin-bottom: 19px;
 }
@@ -382,14 +382,14 @@
     padding: 0 7px;
 }
 .featured__item-4-6-title {
-    font: 1.125em 'georgiaregularfont';
+    font: 1.125em/18.4px 'georgiaregularfont';
     color: #444444;
     padding-bottom: 7px;
     margin-bottom: 12px;
     border-bottom: 1px dashed #d3d3d3;
 }
 .featured__item-4-6-description {
-    font: 0.75em 'helvetica_regular';
+    font: 0.75em/18.4px 'helvetica_regular';
     color: #444444;
     margin-bottom: 6px;
 }
@@ -414,7 +414,7 @@
 }
 .featured__item4-newsletter {
     margin-top: 37px;
-    font: 1.125em 'GILB';
+    font: 1.125em/18.4px 'GILB';
     color: #444444;
     padding-bottom: 8px;
     margin-bottom: 12px;
@@ -427,11 +427,11 @@
     border-radius: 4px;
     padding: 0 10px;
     margin-bottom: 10px;
-    font: 0.75em 'helvetica_regular';
+    font: 0.75em/18.4px 'helvetica_regular';
     color: #444444;
 }
 ::placeholder {
-    font: 0.625em 'VERDANA';
+    font: 0.625em/18.4px 'VERDANA';
     color: #d4d4d4;
 }
 .btn_sub {
@@ -466,7 +466,7 @@
     border-radius: 4px;
     margin-bottom: 10px;
     padding: 10px 10px;
-    font: 0.75em 'helvetica_regular';
+    font: 0.75em/18.4px 'helvetica_regular';
     color: #444444;
     width: 100%;
 }
@@ -477,7 +477,7 @@
     border-radius: 4px;
     padding: 0 10px;
     margin-bottom: 10px;
-    font: 0.75em 'helvetica_regular';
+    font: 0.75em/18.4px 'helvetica_regular';
     color: #444444;
 }
 /*.........end featured__item5............*/
@@ -512,7 +512,7 @@
     background: #f0f0f0 url('../img/news/news-icon_3.png') center no-repeat;
 }
 .featured__item6-news-description {
-    font: 0.75em 'helvetica_regular';
+    font: 0.75em/18.4px 'helvetica_regular';
     color: #444444;
     margin-left: 7px;
 }
@@ -540,7 +540,7 @@
     flex-flow: wrap;
 }
 .footer-left-block__item {
-    font: 0.6875em 'helvetica_regular';
+    font: 0.6875em/18.4px 'helvetica_regular';
     color: #898989;
     margin-bottom: 10px;
 }
