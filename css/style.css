@@ -278,7 +278,7 @@
     position: relative;
     width: 100%;
     height: auto;
-    display: inline-block;
+    display: flex;
     border-radius: 1px;
     box-shadow: 0 0 0 6px #f3f3f3, 0 0 0 7px #e1e1e1;
 }
@@ -391,7 +391,7 @@
 .featured__item-4-6-description {
     font: 0.75em/18.4px 'helvetica_regular';
     color: #444444;
-    margin-bottom: 6px;
+    margin-bottom: 15px;
 }
 .featured__item4-social {
     width: 100%;
@@ -434,7 +434,39 @@
     font: 0.625em/18.4px 'VERDANA';
     color: #d4d4d4;
 }
+ .featured__item-4-6-btn_sub-arromw {
+    position: relative;
+    display: block;
+    width: 11.97183098591549%;
+    height: 1px;
+    border-top: 1px dotted #fff;
+}
+.featured__item-4-6-btn_sub-arromw::before {
+    position: absolute;
+    top: -2px;
+    right: -1px;
+    content: '';
+    display: block;
+    width: 4px;
+    height: 1px;
+    background: #fff;
+    transform: rotate(45deg);
+}
+.featured__item-4-6-btn_sub-arromw::after {
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    content: '';
+    display: block;
+    width: 4px;
+    height: 1px;
+    background: #fff;
+    transform: rotate(-45deg);
+}
 .btn_sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     box-sizing: border-box;
     width: 56.84210526315789%;
     height: 30px;
@@ -445,7 +477,7 @@
     font: 0.8125em 'georgiaregularfont';
     color: #ffffff;
     text-align: left;
-    padding-left: 11px;
+    padding: 0 11px;
     cursor: pointer;
 }
 .btn_sub:active {
